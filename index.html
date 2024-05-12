@@ -12,24 +12,27 @@
   <body>
     <div class="container">
       <h1>World Clock</h1>
-      <select>
+      <select id="city">
         <option value="">Select a city</option>
-        <option value="">Cardiff</option>
-        <option value="">Sendai</option>
-        <option value="">Vienna</option>
-        <option value="">Chicago</option>
+        <option value="Europe/Jersey">Cardiff</option>
+        <option value="Asia/Tokyo">Sendai</option>
+        <option value="Europe/Vienna">Vienna</option>
+        <option value="America/Chicago">Chicago</option>
       </select>
-      <div class="city" id="cardiff">
-        <div>
-          <h2>Cardiff🐉</h2>
-          <div class="date"></div>
+
+      <div id="cities">
+        <div class="city" id="cardiff">
+          <div>
+            <h2>Cardiff🐉</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
         </div>
-        <div class="time"></div>
-      </div>
-      <div class="city" id="sendai">
-        <h2>Sendai⛩</h2>
-        <div class="date"></div>
-        <div class="time"></div>
+        <div class="city" id="sendai">
+          <h2>Sendai⛩</h2>
+          <div class="date"></div>
+          <div class="time"></div>
+        </div>
       </div>
     </div>
     <footer>
